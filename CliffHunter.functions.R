@@ -1,9 +1,9 @@
 ################################################
-#      Functions to MPNSTs samples analysis    #
+#      Functions Of CliffHunteR package        #
 ################################################
 
 
-source(file = "/imppc/labs/eslab/mmagallon/Projects/Integrative_Biology/MPNST_cellLines/WGS/utils.R" )
+source(file = "./utils.R" )
 
 #getSVposition
 
@@ -277,3 +277,4 @@ fastqToBAM <- function(fastq.file, threads.num=2, ref.genome) {
   message("Indexing...")
   system(command=index.cmd, wait=TRUE)  
 }
+
